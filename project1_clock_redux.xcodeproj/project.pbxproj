@@ -16,7 +16,7 @@
 		DE2325B019EEEDDE0013A365 /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2325AB19EEEDDE0013A365 /* ClockViewController.m */; };
 		DE2325B119EEEDDE0013A365 /* LapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2325AD19EEEDDE0013A365 /* LapCell.m */; };
 		DE2325B219EEEDDE0013A365 /* StopWatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2325AF19EEEDDE0013A365 /* StopWatchViewController.m */; };
-		DE97995E19F885C3005CBD32 /* ClockCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE97995D19F885C3005CBD32 /* ClockCellTableViewCell.m */; };
+		DE97996519F95C64005CBD32 /* ClockCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE97996419F95C64005CBD32 /* ClockCellTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +47,8 @@
 		DE2325AD19EEEDDE0013A365 /* LapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LapCell.m; sourceTree = "<group>"; };
 		DE2325AE19EEEDDE0013A365 /* StopWatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatchViewController.h; sourceTree = "<group>"; };
 		DE2325AF19EEEDDE0013A365 /* StopWatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopWatchViewController.m; sourceTree = "<group>"; };
-		DE97995C19F885C3005CBD32 /* ClockCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClockCellTableViewCell.h; path = ../ClockCellTableViewCell.h; sourceTree = "<group>"; };
-		DE97995D19F885C3005CBD32 /* ClockCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClockCellTableViewCell.m; path = ../ClockCellTableViewCell.m; sourceTree = "<group>"; };
+		DE97996319F95C64005CBD32 /* ClockCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockCellTableViewCell.h; sourceTree = "<group>"; };
+		DE97996419F95C64005CBD32 /* ClockCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockCellTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,11 +90,11 @@
 		DE23258019EEED100013A365 /* project1_clock_redux */ = {
 			isa = PBXGroup;
 			children = (
-				DE97995C19F885C3005CBD32 /* ClockCellTableViewCell.h */,
-				DE97995D19F885C3005CBD32 /* ClockCellTableViewCell.m */,
 				DE23258519EEED100013A365 /* AppDelegate.h */,
 				DE23258619EEED100013A365 /* AppDelegate.m */,
 				DE23258E19EEED100013A365 /* Main.storyboard */,
+				DE97996319F95C64005CBD32 /* ClockCellTableViewCell.h */,
+				DE97996419F95C64005CBD32 /* ClockCellTableViewCell.m */,
 				DE2325AA19EEEDDE0013A365 /* ClockViewController.h */,
 				DE2325AB19EEEDDE0013A365 /* ClockViewController.m */,
 				DE2325AC19EEEDDE0013A365 /* LapCell.h */,
@@ -236,7 +236,7 @@
 			files = (
 				DE2325B019EEEDDE0013A365 /* ClockViewController.m in Sources */,
 				DE2325B119EEEDDE0013A365 /* LapCell.m in Sources */,
-				DE97995E19F885C3005CBD32 /* ClockCellTableViewCell.m in Sources */,
+				DE97996519F95C64005CBD32 /* ClockCellTableViewCell.m in Sources */,
 				DE23258719EEED100013A365 /* AppDelegate.m in Sources */,
 				DE2325B219EEEDDE0013A365 /* StopWatchViewController.m in Sources */,
 				DE23258419EEED100013A365 /* main.m in Sources */,

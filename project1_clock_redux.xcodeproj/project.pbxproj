@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE23258419EEED100013A365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE23258319EEED100013A365 /* main.m */; };
+		DE23258719EEED100013A365 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE23258619EEED100013A365 /* AppDelegate.m */; };
+		DE23259019EEED100013A365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE23258E19EEED100013A365 /* Main.storyboard */; };
+		DE23259219EEED100013A365 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE23259119EEED100013A365 /* Images.xcassets */; };
+		DE23259519EEED100013A365 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE23259319EEED100013A365 /* LaunchScreen.xib */; };
+		DE2325A119EEED100013A365 /* project1_clock_reduxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2325A019EEED100013A365 /* project1_clock_reduxTests.m */; };
+		DE2325B019EEEDDE0013A365 /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2325AB19EEEDDE0013A365 /* ClockViewController.m */; };
+		DE2325B119EEEDDE0013A365 /* LapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2325AD19EEEDDE0013A365 /* LapCell.m */; };
+		DE2325B219EEEDDE0013A365 /* StopWatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2325AF19EEEDDE0013A365 /* StopWatchViewController.m */; };
+		DE97995E19F885C3005CBD32 /* ClockCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE97995D19F885C3005CBD32 /* ClockCellTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE23259B19EEED100013A365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE23257619EEED100013A365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE23257D19EEED100013A365;
+			remoteInfo = project1_clock_redux;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE23257E19EEED100013A365 /* project1_clock_redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project1_clock_redux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE23258219EEED100013A365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE23258319EEED100013A365 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE23258519EEED100013A365 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE23258619EEED100013A365 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE23258F19EEED100013A365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE23259119EEED100013A365 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE23259419EEED100013A365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DE23259A19EEED100013A365 /* project1_clock_reduxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = project1_clock_reduxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE23259F19EEED100013A365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE2325A019EEED100013A365 /* project1_clock_reduxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = project1_clock_reduxTests.m; sourceTree = "<group>"; };
+		DE2325AA19EEEDDE0013A365 /* ClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		DE2325AB19EEEDDE0013A365 /* ClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
+		DE2325AC19EEEDDE0013A365 /* LapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LapCell.h; sourceTree = "<group>"; };
+		DE2325AD19EEEDDE0013A365 /* LapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LapCell.m; sourceTree = "<group>"; };
+		DE2325AE19EEEDDE0013A365 /* StopWatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatchViewController.h; sourceTree = "<group>"; };
+		DE2325AF19EEEDDE0013A365 /* StopWatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopWatchViewController.m; sourceTree = "<group>"; };
+		DE97995C19F885C3005CBD32 /* ClockCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockCellTableViewCell.h; sourceTree = "<group>"; };
+		DE97995D19F885C3005CBD32 /* ClockCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockCellTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE23257B19EEED100013A365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE23259719EEED100013A365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE23257519EEED100013A365 = {
+			isa = PBXGroup;
+			children = (
+				DE97995C19F885C3005CBD32 /* ClockCellTableViewCell.h */,
+				DE97995D19F885C3005CBD32 /* ClockCellTableViewCell.m */,
+				DE23258019EEED100013A365 /* project1_clock_redux */,
+				DE23259D19EEED100013A365 /* project1_clock_reduxTests */,
+				DE23257F19EEED100013A365 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE23257F19EEED100013A365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE23257E19EEED100013A365 /* project1_clock_redux.app */,
+				DE23259A19EEED100013A365 /* project1_clock_reduxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE23258019EEED100013A365 /* project1_clock_redux */ = {
+			isa = PBXGroup;
+			children = (
+				DE23258519EEED100013A365 /* AppDelegate.h */,
+				DE23258619EEED100013A365 /* AppDelegate.m */,
+				DE23258E19EEED100013A365 /* Main.storyboard */,
+				DE2325AA19EEEDDE0013A365 /* ClockViewController.h */,
+				DE2325AB19EEEDDE0013A365 /* ClockViewController.m */,
+				DE2325AC19EEEDDE0013A365 /* LapCell.h */,
+				DE2325AD19EEEDDE0013A365 /* LapCell.m */,
+				DE2325AE19EEEDDE0013A365 /* StopWatchViewController.h */,
+				DE2325AF19EEEDDE0013A365 /* StopWatchViewController.m */,
+				DE23259119EEED100013A365 /* Images.xcassets */,
+				DE23259319EEED100013A365 /* LaunchScreen.xib */,
+				DE23258119EEED100013A365 /* Supporting Files */,
+			);
+			path = project1_clock_redux;
+			sourceTree = "<group>";
+		};
+		DE23258119EEED100013A365 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE23258219EEED100013A365 /* Info.plist */,
+				DE23258319EEED100013A365 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE23259D19EEED100013A365 /* project1_clock_reduxTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE2325A019EEED100013A365 /* project1_clock_reduxTests.m */,
+				DE23259E19EEED100013A365 /* Supporting Files */,
+			);
+			path = project1_clock_reduxTests;
+			sourceTree = "<group>";
+		};
+		DE23259E19EEED100013A365 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE23259F19EEED100013A365 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE23257D19EEED100013A365 /* project1_clock_redux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2325A419EEED100013A365 /* Build configuration list for PBXNativeTarget "project1_clock_redux" */;
+			buildPhases = (
+				DE23257A19EEED100013A365 /* Sources */,
+				DE23257B19EEED100013A365 /* Frameworks */,
+				DE23257C19EEED100013A365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = project1_clock_redux;
+			productName = project1_clock_redux;
+			productReference = DE23257E19EEED100013A365 /* project1_clock_redux.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE23259919EEED100013A365 /* project1_clock_reduxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2325A719EEED100013A365 /* Build configuration list for PBXNativeTarget "project1_clock_reduxTests" */;
+			buildPhases = (
+				DE23259619EEED100013A365 /* Sources */,
+				DE23259719EEED100013A365 /* Frameworks */,
+				DE23259819EEED100013A365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE23259C19EEED100013A365 /* PBXTargetDependency */,
+			);
+			name = project1_clock_reduxTests;
+			productName = project1_clock_reduxTests;
+			productReference = DE23259A19EEED100013A365 /* project1_clock_reduxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE23257619EEED100013A365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Wes Jonas";
+				TargetAttributes = {
+					DE23257D19EEED100013A365 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					DE23259919EEED100013A365 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = DE23257D19EEED100013A365;
+					};
+				};
+			};
+			buildConfigurationList = DE23257919EEED100013A365 /* Build configuration list for PBXProject "project1_clock_redux" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE23257519EEED100013A365;
+			productRefGroup = DE23257F19EEED100013A365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE23257D19EEED100013A365 /* project1_clock_redux */,
+				DE23259919EEED100013A365 /* project1_clock_reduxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE23257C19EEED100013A365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE23259019EEED100013A365 /* Main.storyboard in Resources */,
+				DE23259519EEED100013A365 /* LaunchScreen.xib in Resources */,
+				DE23259219EEED100013A365 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE23259819EEED100013A365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE23257A19EEED100013A365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2325B019EEEDDE0013A365 /* ClockViewController.m in Sources */,
+				DE2325B119EEEDDE0013A365 /* LapCell.m in Sources */,
+				DE97995E19F885C3005CBD32 /* ClockCellTableViewCell.m in Sources */,
+				DE23258719EEED100013A365 /* AppDelegate.m in Sources */,
+				DE2325B219EEEDDE0013A365 /* StopWatchViewController.m in Sources */,
+				DE23258419EEED100013A365 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE23259619EEED100013A365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2325A119EEED100013A365 /* project1_clock_reduxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE23259C19EEED100013A365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE23257D19EEED100013A365 /* project1_clock_redux */;
+			targetProxy = DE23259B19EEED100013A365 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE23258E19EEED100013A365 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE23258F19EEED100013A365 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE23259319EEED100013A365 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE23259419EEED100013A365 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE2325A219EEED100013A365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE2325A319EEED100013A365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE2325A519EEED100013A365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = project1_clock_redux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE2325A619EEED100013A365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = project1_clock_redux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE2325A819EEED100013A365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = project1_clock_reduxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project1_clock_redux.app/project1_clock_redux";
+			};
+			name = Debug;
+		};
+		DE2325A919EEED100013A365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = project1_clock_reduxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project1_clock_redux.app/project1_clock_redux";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE23257919EEED100013A365 /* Build configuration list for PBXProject "project1_clock_redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2325A219EEED100013A365 /* Debug */,
+				DE2325A319EEED100013A365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2325A419EEED100013A365 /* Build configuration list for PBXNativeTarget "project1_clock_redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2325A519EEED100013A365 /* Debug */,
+				DE2325A619EEED100013A365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2325A719EEED100013A365 /* Build configuration list for PBXNativeTarget "project1_clock_reduxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2325A819EEED100013A365 /* Debug */,
+				DE2325A919EEED100013A365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE23257619EEED100013A365 /* Project object */;
+}
